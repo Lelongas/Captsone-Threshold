@@ -1,0 +1,24 @@
+# Python / venv / caches
+.venv/
+__pycache__/
+*.pyc
+
+# Local DBs & large datasets
+*.db
+data/
+*.csv
+*.xlsx
+*.zip
+
+# Secrets
+.env
+.env.*
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+
+# If you had these exact names:
+raw recipes/
+"raw recipes"/
+"RAW_recipes.csv"
