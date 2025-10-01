@@ -1,24 +1,18 @@
-# Python / venv / caches
-.venv/
-__pycache__/
-*.pyc
+# --- ignore everything inside the app folder that shouldn't be tracked ---
+fridge_recipes_starter/.venv/
+fridge_recipes_starter/__pycache__/
+fridge_recipes_starter/*.pyc
+fridge_recipes_starter/*.db
+fridge_recipes_starter/data/
+fridge_recipes_starter/*.csv
+fridge_recipes_starter/*.xlsx
+fridge_recipes_starter/*.zip
+fridge_recipes_starter/.env
+fridge_recipes_starter/.env.*
+fridge_recipes_starter/RAW_recipes.csv
+fridge_recipes_starter/raw recipes/
+"fridge_recipes_starter/raw recipes"/
 
-# Local DBs & large datasets
-*.db
-data/
-*.csv
-*.xlsx
-*.zip
-
-# Secrets
-.env
-.env.*
-
-# OS / editor junk
+# OS/editor
 .DS_Store
 Thumbs.db
-
-# If you had these exact names:
-raw recipes/
-"raw recipes"/
-"RAW_recipes.csv"
